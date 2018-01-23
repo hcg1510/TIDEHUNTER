@@ -1,6 +1,5 @@
 filterSelection("all")
 
-
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("Category");
@@ -31,7 +30,6 @@ function RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");

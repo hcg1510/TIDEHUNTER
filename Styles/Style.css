@@ -20,13 +20,13 @@ h1 {
 }
 
 .row {
-    margin: 10px -16px;
+    margin: 10px -10px;
 }
 
 /* Create three equal columns that floats next to each other */
 .Category {
     float: left;
-    width: 150px;
+    width: 500px;
     display: none;
 }
 
