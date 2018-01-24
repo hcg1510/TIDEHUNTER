@@ -41,3 +41,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+obj = JSON.parse('Resource/JSON/data.json');
+document.getElementById("demo").innerHTML =
+obj.employees[1].firstName + " " + obj.employees[1].lastName;
