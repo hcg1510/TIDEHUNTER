@@ -42,6 +42,12 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-obj = JSON.parse("data.json");
-document.getElementById("demo").innerHTML =
-obj.employees[1].firstName + " " + obj.employees[1].lastName;
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var myObj = JSON.parse(this.responseText);
+        document.getElementById("demo").innerHTML = myObj.name;
+    }
+};
+xmlhttp.open("GET", "data.json", true);
+xmlhttp.send();
