@@ -1,4 +1,4 @@
-// newElement()
+newElement("1", "Type 1", "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/d/d9/Beastmaster_icon.png?version=d8f497406b8ae5ef85492a3806d54399", "500.000", "20")
 filterSelection("all")
 
 function filterSelection(c) {
@@ -56,24 +56,32 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open("GET", "https://raw.githubusercontent.com/herosf2006/SALEWEB/master/Resource/JSON/data.json", true);
 xmlhttp.send();
 
-// function newElement(category, name, url, value, quantity) {
-function newElement() {
-  var category = document.createElement("div");
-  // var t = document.createTextNode(name);
-  category.className = ("Category 1");
-  document.getElementById("grid").appendChild(category);
-  var content = document.createElement("div");
-  category.appendChild(content);
-  content.className = ("content");
-  var img = document.createElement("img");
-  content.appendChild(img);
-  img.src = "https://www.w3schools.com/w3images/mountains.jpg";
-  img.style = "width:100%";
+function newElement(category, name, url, value, quantity) {
+// function newElement(ca) {
+  var type  = document.createElement("div");
+  var content   = document.createElement("div");
+  var img       = document.createElement("img");
+  var h4        = document.createElement("h4");
+  var p         = document.createElement("div");
+  var price     = document.createElement("p");
+  var qtt       = document.createElement("qtt");
 
-  var h4 = document.createElement("h4");
-  var p = document.createElement("p");
-  h4.innerHTML = "Type 1";
-  p.innerHTML = "Blah blah blah";
+  document.getElementById("grid").appendChild(type);
+  type.appendChild(content);
+  content.className = ("content");
+  content.appendChild(img);
+  type.className = "Category " + category;
   content.appendChild(h4);
   content.appendChild(p);
+  content.appendChild(price);
+  p.appendChild(qtt);
+  
+  img.src = url;
+  img.style = "width: 100%;";
+  h4.innerHTML = name;
+  price.innerHTML = value;
+  qtt.innerText = quantity;
+  if (quantity == 0) {
+    qtt.style = "background: red";
+  }
 }

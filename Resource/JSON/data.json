@@ -1,18 +1,50 @@
 {
-    "name": "John",
-    "age": 31,
-    "Cate": 
-    [{
-            "animal": "dog",
-            "name": "Fido"
+    "Title": "Dota 2 Items list",
+    "Version": 32,
+    "Grid": 
+    [   
+        {
+            "category": "Strength",
+            "name": "Fido",
+            "url": "",
+            "value": "",
+            "quantity": ""
         },
         {
-            "animal": "cat",
-            "name": "Felix"
+            "category": "Agility",
+            "name": "Fido",
+            "url": "",
+            "value": "",
+            "quantity": ""
         },
         {
-            "animal": "hamster",
-            "name": "Lightning"
+            "category": "Strength",
+            "name": "Fido",
+            "url": "",
+            "value": "",
+            "quantity": ""
+        },
+        {
+            "category": "Strength",
+            "name": "Fido",
+            "url": "",
+            "value": "",
+            "quantity": ""
+        },
+        {
+            "category": "Agility",
+            "name": "Fido",
+            "url": "",
+            "value": "",
+            "quantity": ""
+        },
+        {
+            "category": "Strength",
+            "name": "Fido",
+            "url": "",
+            "value": "",
+            "quantity": ""
         }
+
     ]
 }
