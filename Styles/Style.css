@@ -20,14 +20,8 @@ h1 {
 }
 
 .row {
-    margin: 10px -10px;
-}
-
-/* Create three equal columns that floats next to each other */
-.Category {
-    float: left;
-    width: 500px;
-    display: none;
+    margin: 10px 0px;
+    position: relative;
 }
 
 /* Add padding BETWEEN each column */
@@ -42,6 +36,13 @@ h1 {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Create three equal columns that floats next to each other */
+.Category {
+    float: left;
+    width: 330px;
+    display: none;
 }
 
 .content {
