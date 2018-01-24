@@ -50,5 +50,5 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("demo").innerHTML = myObj.name;
     }
 };
-xmlhttp.open("GET", "data.json", true);
+xmlhttp.open("GET", "https://raw.githubusercontent.com/herosf2006/SALEWEB/master/Scripts/data.json", true);
 xmlhttp.send();
