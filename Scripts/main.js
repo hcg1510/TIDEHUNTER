@@ -42,6 +42,6 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-obj = JSON.parse("Resource/JSON/data.json");
+obj = JSON.parse("data.json");
 document.getElementById("demo").innerHTML =
 obj.employees[1].firstName + " " + obj.employees[1].lastName;
