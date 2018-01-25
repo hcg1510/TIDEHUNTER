@@ -1,4 +1,17 @@
 // newElement("1", "Type 1", "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/thumb/8/89/Cosmetic_icon_Treasure_of_the_Emerald_Revival.png/256px-Cosmetic_icon_Treasure_of_the_Emerald_Revival.png?version=62773caec416d889c7f6626de6e8e9b8", "500.000", "20")
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyCNSRg-AzeB2gu6cTRoHx1nDFlGXMHUx8A",
+  authDomain: "testfirebase-19065.firebaseapp.com",
+  databaseURL: "https://testfirebase-19065.firebaseio.com",
+  projectId: "testfirebase-19065",
+  storageBucket: "testfirebase-19065.appspot.com",
+  messagingSenderId: "925410836720"
+};
+firebase.initializeApp(config);
+
+
+var database = firebase.database();
 
 function filterSelection(c) {
   var x, i;
@@ -44,42 +57,53 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
-  document.getElementById("Demo").innerHTML = "Welcome!";
-  if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
-    // Distribution JSON DATA
-    // document.getElementById("Title").innerHTML = myObj.title;
-    setValue("Title", myObj.title);
-    setValue("Version", myObj.version);
-    setValue("Demo", Date());
-    // document.getElementById("Demo").innerHTML = Date();
-    var llength =  Object.keys(myObj.list).length;
+// setValue("Demo", database.getValue())
+firebase.database().ref().on('value', function (snap) {
+  // console.log(JSON.stringify(snap.val()))
+  // var myObj = JSON.stringify(snap.val());
+  // myObj[1].name;
+  // var jsonObj = JSON.parse(myObj);
+  console.log(snap.val().title);
+  // setValue("Demo", jsonObj);
+})
 
-    for (var i = 0; i < llength; i++) {
-      newElement( myObj.list[i].category,
-                  myObj.list[i].name,
-                  myObj.list[i].url,
-                  myObj.list[i].value,
-                  myObj.list[i].quantity
-      );
-    }
+filterSelection("all")
+// var xmlhttp = new XMLHttpRequest();
+// xmlhttp.onreadystatechange = function () {
+//   document.getElementById("Demo").innerHTML = "Welcome!";
+//   if (this.readyState == 4 && this.status == 200) {
+//     var myObj = JSON.parse(this.responseText);
+//     // Distribution JSON DATA
+//     // document.getElementById("Title").innerHTML = myObj.title;
+//     setValue("Title", myObj.title);
+//     setValue("Version", myObj.version);
+//     setValue("Demo", Date());
+//     // document.getElementById("Demo").innerHTML = Date();
+//     var llength = Object.keys(myObj.list).length;
 
-    filterSelection("all")
-  }
-};
-xmlhttp.open("GET", "https://raw.githubusercontent.com/herosf2006/TIDEHUNTER/master/Resource/JSON/data.json", true);
-xmlhttp.send();
+//     for (var i = 0; i < llength; i++) {
+//       newElement(myObj.list[i].category,
+//         myObj.list[i].name,
+//         myObj.list[i].url,
+//         myObj.list[i].value,
+//         myObj.list[i].quantity
+//       );
+//     }
+
+//     filterSelection("all")
+//   }
+// };
+// xmlhttp.open("GET", "https://raw.githubusercontent.com/herosf2006/TIDEHUNTER/master/Resource/JSON/data.json", true);
+// xmlhttp.send();
 
 function newElement(category, name, url, value, quantity) {
-  var type      = document.createElement("div");
-  var content   = document.createElement("div");
-  var img       = document.createElement("img");
-  var h4        = document.createElement("h4");
-  var p         = document.createElement("div");
-  var price     = document.createElement("p");
-  var qtt       = document.createElement("qtt");
+  var type = document.createElement("div");
+  var content = document.createElement("div");
+  var img = document.createElement("img");
+  var h4 = document.createElement("h4");
+  var p = document.createElement("div");
+  var price = document.createElement("p");
+  var qtt = document.createElement("qtt");
 
   document.getElementById("List").appendChild(type);
   type.appendChild(content);
@@ -90,7 +114,7 @@ function newElement(category, name, url, value, quantity) {
   content.appendChild(p);
   content.appendChild(price);
   p.appendChild(qtt);
-  
+
   img.src = url;
   img.style = "width: 100%;";
   h4.innerHTML = name;
