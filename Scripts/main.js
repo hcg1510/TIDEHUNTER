@@ -1,5 +1,4 @@
-newElement("1", "Type 1", "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/d/d9/Beastmaster_icon.png?version=d8f497406b8ae5ef85492a3806d54399", "500.000", "20")
-filterSelection("all")
+// newElement("1", "Type 1", "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/thumb/8/89/Cosmetic_icon_Treasure_of_the_Emerald_Revival.png/256px-Cosmetic_icon_Treasure_of_the_Emerald_Revival.png?version=62773caec416d889c7f6626de6e8e9b8", "500.000", "20")
 
 function filterSelection(c) {
   var x, i;
@@ -47,18 +46,34 @@ for (var i = 0; i < btns.length; i++) {
 
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
-  document.getElementById("demo").innerHTML = "Welcome!";
+  document.getElementById("Demo").innerHTML = "Welcome!";
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("demo").innerHTML = myObj.name;
+    // Distribution JSON DATA
+    // document.getElementById("Title").innerHTML = myObj.title;
+    setValue("Title", myObj.title);
+    setValue("Version", myObj.version);
+    setValue("Demo", Date());
+    // document.getElementById("Demo").innerHTML = Date();
+    var llength =  Object.keys(myObj.list).length;
+
+    for (var i = 0; i < llength; i++) {
+      newElement( myObj.list[i].category,
+                  myObj.list[i].name,
+                  myObj.list[i].url,
+                  myObj.list[i].value,
+                  myObj.list[i].quantity
+      );
+    }
+
+    filterSelection("all")
   }
 };
-xmlhttp.open("GET", "https://raw.githubusercontent.com/herosf2006/SALEWEB/master/Resource/JSON/data.json", true);
+xmlhttp.open("GET", "https://gist.githubusercontent.com/herosf2006/812472f76bed8f827bd4024b2eabb8d6/raw/7a709ed75a7e3c416442349cbde33bd3af5e794f/data.json", true);
 xmlhttp.send();
 
 function newElement(category, name, url, value, quantity) {
-// function newElement(ca) {
-  var type  = document.createElement("div");
+  var type      = document.createElement("div");
   var content   = document.createElement("div");
   var img       = document.createElement("img");
   var h4        = document.createElement("h4");
@@ -66,7 +81,7 @@ function newElement(category, name, url, value, quantity) {
   var price     = document.createElement("p");
   var qtt       = document.createElement("qtt");
 
-  document.getElementById("grid").appendChild(type);
+  document.getElementById("List").appendChild(type);
   type.appendChild(content);
   content.className = ("content");
   content.appendChild(img);
@@ -79,9 +94,13 @@ function newElement(category, name, url, value, quantity) {
   img.src = url;
   img.style = "width: 100%;";
   h4.innerHTML = name;
-  price.innerHTML = value;
+  price.innerHTML = value + " đ";
   qtt.innerText = quantity;
   if (quantity == 0) {
     qtt.style = "background: red";
   }
+}
+
+function setValue(id, value) {
+  document.getElementById(id).innerHTML = value;
 }
