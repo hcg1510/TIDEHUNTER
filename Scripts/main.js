@@ -69,7 +69,7 @@ xmlhttp.onreadystatechange = function () {
     filterSelection("all")
   }
 };
-xmlhttp.open("GET", "https://gist.githubusercontent.com/herosf2006/812472f76bed8f827bd4024b2eabb8d6/raw/7a709ed75a7e3c416442349cbde33bd3af5e794f/data.json", true);
+xmlhttp.open("GET", "https://raw.githubusercontent.com/herosf2006/TIDEHUNTER/master/Resource/JSON/data.json", true);
 xmlhttp.send();
 
 function newElement(category, name, url, value, quantity) {
