@@ -1,49 +1,49 @@
 {
-    "Title": "Dota 2 Items list",
-    "Version": 32,
-    "Grid": 
+    "title": "DOTA 2 Treasures",
+    "version": 34,
+    "list": 
     [   
         {
-            "category": "Strength",
-            "name": "Fido",
-            "url": "",
-            "value": "",
-            "quantity": ""
+            "category": "Mythical",
+            "name": "Frostivus 2017 Treasure",
+            "url": "https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/frostivus_2017_treasure_large.f2857b9d1c4b61a9adccac7ffbaa41f84a4b3ff1.png",
+            "value": "60.000",
+            "quantity": "21"
         },
         {
-            "category": "Agility",
-            "name": "Fido",
-            "url": "",
-            "value": "",
-            "quantity": ""
+            "category": "Rare",
+            "name": "Treasure of the Venerable One",
+            "url": "https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/singles_day_2017_treasure_large.c7ee52419b5d220aeca76ca1f30a02f9259a9679.png",
+            "value": "60.000",
+            "quantity": "9"
         },
         {
-            "category": "Strength",
-            "name": "Fido",
-            "url": "",
-            "value": "",
-            "quantity": ""
+            "category": "Rare",
+            "name": "Treasure of the Emerald Revival",
+            "url": "https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/emerald_revival_large.eac18e7a62640ae9c49fe7e6bfa9d022e1113157.png",
+            "value": "60.000",
+            "quantity": "8"
         },
         {
-            "category": "Strength",
-            "name": "Fido",
-            "url": "",
-            "value": "",
-            "quantity": ""
+            "category": "Rare",
+            "name": "Treasure of the Southern Sojourn",
+            "url": "https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/weta_treasure_large.7c29ecf71d227c43013b3075fc3a782bba3c470c.png",
+            "value": "42.000",
+            "quantity": "9"
         },
         {
-            "category": "Agility",
-            "name": "Fido",
-            "url": "",
-            "value": "",
-            "quantity": ""
+            "category": "Immortal",
+            "name": "Golden Trove Carafe 2017",
+            "url": "https://dota2.gamepedia.com/File:Cosmetic_icon_Golden_Trove_Carafe_2017.png",
+            "value": "110.000",
+            "quantity": "4"
         },
         {
-            "category": "Strength",
-            "name": "Fido",
-            "url": "",
-            "value": "",
-            "quantity": ""
+            "category": "Immortal",
+            "name": "Treasure of the Crimson Witness 2017",
+            "url": "https://dota2.gamepedia.com/File:Cosmetic_icon_Treasure_of_the_Crimson_Witness_2017.png",
+            "value": "76.000",
+            "quantity": "6"
         }
 
     ]
