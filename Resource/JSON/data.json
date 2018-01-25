@@ -1,50 +1,286 @@
-{
-    "title": "DOTA 2 Treasures",
-    "version": 34,
-    "list": 
-    [   
-        {
-            "category": "Mythical",
-            "name": "Frostivus 2017 Treasure",
-            "url": "https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/frostivus_2017_treasure_large.f2857b9d1c4b61a9adccac7ffbaa41f84a4b3ff1.png",
-            "value": "60.000",
-            "quantity": "21"
-        },
-        {
-            "category": "Rare",
-            "name": "Treasure of the Venerable One",
-            "url": "https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/singles_day_2017_treasure_large.c7ee52419b5d220aeca76ca1f30a02f9259a9679.png",
-            "value": "60.000",
-            "quantity": "9"
-        },
-        {
-            "category": "Rare",
-            "name": "Treasure of the Emerald Revival",
-            "url": "https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/emerald_revival_large.eac18e7a62640ae9c49fe7e6bfa9d022e1113157.png",
-            "value": "60.000",
-            "quantity": "8"
-        },
-        {
-            "category": "Rare",
-            "name": "Treasure of the Southern Sojourn",
-            "url": "https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/weta_treasure_large.7c29ecf71d227c43013b3075fc3a782bba3c470c.png",
-            "value": "42.000",
-            "quantity": "9"
-        },
-        {
-            "category": "Immortal",
-            "name": "Golden Trove Carafe 2017",
-            "url": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/f/f5/Cosmetic_icon_Golden_Trove_Carafe_2017.png?version=4089f043165e90eb55946deab7262c6d",
-            "value": "110.000",
-            "quantity": "0"
-        },
-        {
-            "category": "Immortal",
-            "name": "Treasure of the Crimson Witness 2017",
-            "url": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/55/Cosmetic_icon_Treasure_of_the_Crimson_Witness_2017.png?version=9c0b4db18dd4fdd16297fc18afa36921",
-            "value": "76.000",
-            "quantity": "6"
-        }
-
-    ]
+{  
+   "title":"DOTA 2 Treasures",
+   "version":34,
+   "list":[  
+      {  
+         "category":"Mythical",
+         "name":"Frostivus 2017 Treasure",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/frostivus_2017_treasure_large.f2857b9d1c4b61a9adccac7ffbaa41f84a4b3ff1.png",
+         "value":"59760.00000000001",
+         "quantity":"18"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Venerable One",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/singles_day_2017_treasure_large.c7ee52419b5d220aeca76ca1f30a02f9259a9679.png",
+         "value":"59760.00000000001",
+         "quantity":"9"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Emerald Revival",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/emerald_revival_large.eac18e7a62640ae9c49fe7e6bfa9d022e1113157.png",
+         "value":"59760.00000000001",
+         "quantity":"8"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Dota 2 Asia Championships 2017",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/dac_2017_treasure_large.23e94b6e10edf3c26450971083c819fc4a9e5558.png",
+         "value":"59760.00000000001",
+         "quantity":"11"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Glacial Abyss",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/dotapit_5_treasure_chest_large.79cfb608232422af5a59eb74e4bb653c569731d2.png",
+         "value":"59760.00000000001",
+         "quantity":"9"
+      },
+      {  
+         "category":"Rare",
+         "name":"Warhammer: Treasure of the Old World",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/warhammer_treasure_large.56ac4d803066dd76701229a6ef1a4ce5521743c8.png",
+         "value":"59760.00000000001",
+         "quantity":"11"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Plaited Nebula",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_plaited_nebula_large.55e913b3aa792d6d573557aaff032c4afe5a0fd7.png",
+         "value":"59760.00000000001",
+         "quantity":"10"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Enigmatic Wanderer",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/dc_captains_draft_treasure_large.296a1c82778c5a55bac8c164be4c92092b895bd1.png",
+         "value":"59760.00000000001",
+         "quantity":"8"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Southern Sojourn",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/weta_treasure_large.7c29ecf71d227c43013b3075fc3a782bba3c470c.png",
+         "value":"42000.0",
+         "quantity":"12"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Autumn Flurry",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/canada_cup_6_chest_large.1d763878483f78e3081265f27a1f35542676bd46.png",
+         "value":"59760.00000000001",
+         "quantity":"9"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Cherished Hoard",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/dotapit_4_chest_large.ebd11ffc7824c3c5f225fb6d39a62938e74a0708.png",
+         "value":"59760.00000000001",
+         "quantity":"9"
+      },
+      {  
+         "category":"Rare",
+         "name":"Nested Treasure II",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/nested_cache_2015_large.4408d6431a1128b040cd5ce87f90a4898cc7d3ec.png",
+         "value":"42000.0",
+         "quantity":"14"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Tireless Crafter",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_tireless_crafter_large.c97378ce47ec6fc3d6c9317728cb5c8ff8128887.png",
+         "value":"59760.00000000001",
+         "quantity":"5"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Seer's Eyeglass",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_seers_eyeglass_large.fae3c45be86abc2ddc8769d2a7e99aab2068c92f.png",
+         "value":"59760.00000000001",
+         "quantity":"9"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Burning Grove",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/esl_new_york_super_week_chest_large.615591089e372afd06673406503182487ba13d8f.png",
+         "value":"59760.00000000001",
+         "quantity":"5"
+      },
+      {  
+         "category":"Mythical",
+         "name":"Sculptor's Pillar 2015",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/sculptors_monument_ti5_large.fc06bb137e94cecea7cbb4643f6eace5456b9214.png",
+         "value":"59760.00000000001",
+         "quantity":"12"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Crafter's Relic",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/crafters_relic_large.52b5f87f25e6539723f841d6e7b67a0a34d71537.png",
+         "value":"59760.00000000001",
+         "quantity":"11"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Distinguished Conqueror",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_distinguished_conqueror_large.3cea0710b820f34e9b1d048c202e89d395299bc7.png",
+         "value":"59760.00000000001",
+         "quantity":"11"
+      },
+      {  
+         "category":"Common",
+         "name":"Treasure of the Endless Gaze",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_living_foresight_large.e529fb9d2efe46afe510f72422c83603d7dc6303.png",
+         "value":"42000.0",
+         "quantity":"11"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Dreamer's Flame",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_dreamleague_large.46a0a5d425cbdf3ee000e8cc50ce8e9f73e5cbb8.png",
+         "value":"59760.00000000001",
+         "quantity":"8"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Grimsneer's Stash",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_grimsneers_stash_large.14b0cf6349c4069dcf40c0d0f0b51acb8847fee9.png",
+         "value":"59760.00000000001",
+         "quantity":"9"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Summit's Roost",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/summit_3_treasure_large.c47a0c51d89d1596c65a73dae275d2da076a6bbf.png",
+         "value":"59760.00000000001",
+         "quantity":"10"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Forgotten Myth",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_forgotten_myth_large.b6d2efe029ce024c5fae081c71a8fce6e306a007.png",
+         "value":"59760.00000000001",
+         "quantity":"9"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Spring Blossom",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/spring_blossom_large.f8c717502c3208f93e45f57c4ea5974325cb31f4.png",
+         "value":"59760.00000000001",
+         "quantity":"11"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Ram's Renewal",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_rams_renewal_large.0d58f722aab94b55e04194259488f21febe249d8.png",
+         "value":"59760.00000000001",
+         "quantity":"12"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Hallowed Lands",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/hallowed_lands_large.c508ca5a9e92d1377a8718cd17a0d8db192b1d02.png",
+         "value":"59760.00000000001",
+         "quantity":"8"
+      },
+      {  
+         "category":"Rare",
+         "name":"Treasure of the Nested Cache",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/nested_cache_large.871b72d05f5266fac0d1dc9c863bde7c0a159cd5.png",
+         "value":"42000.0",
+         "quantity":"13"
+      },
+      {  
+         "category":"Mythical",
+         "name":"Treasure of the Frosted Flame",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/fronzen_flame_large.810916a6eeaf8912fa8d9a57473d4d168f97f839.png",
+         "value":"59760.00000000001",
+         "quantity":"11"
+      },
+      {  
+         "category":"Mythical",
+         "name":"Treasure of the Defender's Vision",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_defenders_vision_large.f8ac53b76af8937ec08be6282cd58da3e2c68858.png",
+         "value":"59760.00000000001",
+         "quantity":"10"
+      },
+      {  
+         "category":"Mythical",
+         "name":"Treasure of the Rotted Gallows",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/rotted_gallows_large.3c4c46347690a079d5c8a3d1a91a32898bc65e3f.png",
+         "value":"59760.00000000001",
+         "quantity":"14"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Summit's Peak",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/summits_peak_large.89b3732887115292a5962c51b176d74cc2c9fc00.png",
+         "value":"59760.00000000001",
+         "quantity":"9"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Forged Fury",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/forged_fury_large.be2f9a318d56f045c3783fa49c8b03af5d760cc6.png",
+         "value":"59760.00000000001",
+         "quantity":"12"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Mender's Palm",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/menders_palm_large.624a66dccd13a4830160cbc0682ee806df517a15.png",
+         "value":"59760.00000000001",
+         "quantity":"10"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Onyx Eye",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/onyx_eye_large.91cfba21927c6f4152a18dff3198c93ae3ab2fdb.png",
+         "value":"59760.00000000001",
+         "quantity":"10"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Tangled Keepsake",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_tangled_keepsake_large.43b0bcc5617b7f900458415f590b954dfc8e7e3d.png",
+         "value":"59760.00000000001",
+         "quantity":"11"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Elemental Trophy",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_elemental_trophy_large.a7f75d93481852ebd4fbc72c1c38113199a463e3.png",
+         "value":"59760.00000000001",
+         "quantity":"11"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Eternal Alliance",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_eternal_alliance_large.a55ca84d0d7f50ee5d511aa4e5716afa201806a6.png",
+         "value":"95760.0",
+         "quantity":"8"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Cannon's Fuse",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_cannons_fuse_large.5da302466180d31c37ed9071ea76e68ad5c493cb.png",
+         "value":"59760.00000000001",
+         "quantity":"10"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of the Trapper's Pelt",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_the_trappers_pelt_large.2dbffd1c43f1e2c7780e91ec2912d51d6a8bf97b.png",
+         "value":"59760.00000000001",
+         "quantity":"10"
+      },
+      {  
+         "category":"Uncommon",
+         "name":"Treasure of Molten Steel",
+         "url":"https://steamcdn-a.akamaihd.net/apps/570/icons/econ/tools/treasure_of_molten_steel_large.31a4cef1cd07fdae6b5354d98813a22107486a7f.png",
+         "value":"59760.00000000001",
+         "quantity":"10"
+      }
+   ]
 }
